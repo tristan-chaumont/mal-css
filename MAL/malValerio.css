@@ -1,53 +1,27 @@
 @\import "https://fonts.googleapis.com/css?family=Oswald";
 @\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
 
-/* BANNER BACKGROUNDS
-
-To change background images: Delete what's in the parenthesis. Upload the new background to Imgur or a similar site, then copy the direct link (or Original GIF link if it's animated) and paste it into the parenthesis. Save.*/
-
-/* All Anime */
-[data-query*="status\":7"] { --banner: url(https://i.imgur.com/5O8MPCe.jpg); }
-/* Watching/Reading */
-[data-query*="status\":1"] { --banner: url(https://i.imgur.com/wuu4A1E.jpg); }
-/* Completed */
-[data-query*="status\":2"] { --banner: url(https://i.imgur.com/EStnoc2.png); }
-/* Onhold */
-[data-query*="status\":3"] { --banner: url(https://i.imgur.com/ie556RH.jpg); }
-/* Dropped */
-[data-query*="status\":4"] { --banner: url(https://i.imgur.com/JGSDsDT.jpg); }
-/* Planned */
-[data-query*="status\":6"] { --banner: url(https://i.imgur.com/6pnPYNw.jpg); }
-
-
-/* BANNER CHARACTERS (RIGHT PIC)*/
-
-/* All Anime */
-[data-query*="status\":7"] { --character: url(https://i.imgur.com/c2H6eJD.png); }
-/* Watching/Reading */
-[data-query*="status\":1"] { --character: url(https://i.imgur.com/w9ky7xU.png); }
-/* Completed */
-[data-query*="status\":2"] { --character: url(https://i.imgur.com/XzEJqYb.png); }
-/* Onhold */
-[data-query*="status\":3"] { --character: url(https://i.imgur.com/0KPt1Cb.png); }
-/* Dropped */
-[data-query*="status\":4"] { --character: url(https://i.imgur.com/YKzla1l.png); }
-/* Planned */
-[data-query*="status\":6"] { --character: url(https://i.imgur.com/exojhkx.png); }
 
 
 
+/* BANNER BACKGROUND
+
+To change background images: Delete what's in the parenthesis. Upload the new background to Imgur or a similar site, then copy the direct link (or Original GIF link if it's animated) and paste it into the parenthesis. Save.
+*/
+:root { --banner: url(https://i.imgur.com/VoPJz2S.jpg) !important;}	
 	
 	
 /* BANNER TEXT*/
-:root { --name: "" !Important; }
+:root { --name: "Yui\a   Hirasawa" !Important; }
 
 /* BANNER AVATAR (BOTTOM LEFT PIC) */
-:root { --avatar: url(https://i.imgur.com/FNoobjo.jpg) !important;}
+:root { --avatar: url(https://i.imgur.com/YFsBUOi.jpg) !important;}
 
 
 
 
-
+/* BANNER CHARACTER (RIGHT PIC)*/
+:root { --character: url(https://i.imgur.com/6IPyngH.png) !important; }
 
 
 /* WALLPAPER

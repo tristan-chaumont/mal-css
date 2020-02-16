@@ -1,6 +1,8 @@
 /* List design by Naiwo */
 
 @\import "https://fonts.googleapis.com/css?family=Source+Sans+Pro";
+@\import "https://fonts.googleapis.com/css?family=Oswald";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
 
 body {
   background: url(https://i.postimg.cc/JzHSb7Kg/opacity.png), fixed center/cover url(https://i.postimg.cc/Ytj7rMNQ/background.jpg)!important;

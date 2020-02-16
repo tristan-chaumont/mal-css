@@ -2,9 +2,9 @@
 @\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelink";
 
 body {
-  background: url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRznglNnufcAvn5pOQqmKwnxF4MEGjNRtCIn1TT-_7JXz8nZ),
-    url(https://image.myanimelist.net/ui/uf6p6rEk2dlZoh8DIyYQTScPXcYWVkorZzR5QFff8DyDzTdbJYJwzH3R2lWVJkHOdP4y55c06A4fZbPXJpqYDvLuhyaebcSPnK6QLHBED7-o-ClTkn_bsnshpfBLGgPZjMiKMrXcb1iI6PR717oIPNFRI5v-1r-20IDrpHAdy8KmO4zdFnmomZ_ySnrHu1cr4VmTEJbm7Xv2ihRc4y3k9ljwhkaai7BkFFcWo-qGkHg) !important;
-  font: 300 11px Open Sans; color: black !important;}
+  font: 300 11px Open Sans; 
+  color: black !important;
+}
 
 *:not(a:hover):not(input) {
   cursor: default;}

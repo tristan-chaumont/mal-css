@@ -1,0 +1,26 @@
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelink";
+
+body {
+  background: url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRznglNnufcAvn5pOQqmKwnxF4MEGjNRtCIn1TT-_7JXz8nZ),
+    url(https://image.myanimelist.net/ui/uf6p6rEk2dlZoh8DIyYQTScPXcYWVkorZzR5QFff8DyDzTdbJYJwzH3R2lWVJkHOdP4y55c06A4fZbPXJpqYDvLuhyaebcSPnK6QLHBED7-o-ClTkn_bsnshpfBLGgPZjMiKMrXcb1iI6PR717oIPNFRI5v-1r-20IDrpHAdy8KmO4zdFnmomZ_ySnrHu1cr4VmTEJbm7Xv2ihRc4y3k9ljwhkaai7BkFFcWo-qGkHg) !important;
+  font: 300 11px Open Sans; color: black !important;}
+
+*:not(a:hover):not(input) {
+  cursor: default;}
+
+a:link, a:active, a:visited {color: black;}
+
+.header .header-title, .header .header-menu .btn-menu,
+#header-menu-dropdown svg, [data-work="anime"] .icon-menu.anime-list, [data-work="manga"] .icon-menu.manga-list,
+[data-owner=""] .list-menu-float, .list-menu-float .icon-menu.setting, form[action],
+.list-menu-float .icon-menu .text,
+.list-unit .list-status-title .text, #show-stats-button,
+.list-table .list-table-header .header-title.status, 
+.list-table .list-table-header .header-title.number, .list-table .list-table-header .header-title.image,
+.list-table .list-table-header .header-title.progress ~ th,
+.list-table .list-table-data .data.status, .list-table .list-table-data .data.number,
+.list-table .list-table-data .data.status.plantowatch ~ .data.score,
+.list-table .list-table-data .data.progress ~ td,
+.cover-block, i.fa:not([class*=sort]):not([class$=circle]), img, .icon-watch.ml4, .more,
+[data-owner=""] .add-edit-more {display: none;}

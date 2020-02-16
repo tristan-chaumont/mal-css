@@ -1,1 +1,1 @@
-# mal-css
+# CSS Layout for MyAnimeList

@@ -1,1 +1,1 @@
-# CSS Layout for MyAnimeList
+# CSS Layout 
